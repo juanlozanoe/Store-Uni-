@@ -1,0 +1,9 @@
+
+<form action="/signup/" method="post">
+   {%  csrf.token %}
+    {{form.as_p}}
+    <button>
+        sign Up
+    </button>
+
+</form>
